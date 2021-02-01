@@ -28,7 +28,7 @@ const onRequest = (request, response) => {
     }
 
     response.writeHead(200, {
-        'Content-Type': 'type/plain'
+        'Content-Type': 'text/plain'
     });
     console.log("request received");
 
